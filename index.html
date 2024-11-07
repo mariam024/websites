@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+        <h3>Shopify</h3>
+        <div class="search-bar">
+            <input type="text" class="search">
+            <button onclick="searchProducts()"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="all">
+        <aside>
+            <ul>
+                <li onclick="getByCategory('smartphones')">Smart Phones</li>
+                <li onclick="getByCategory('beauty')"> Beauty</li>
+                <li onclick="getByCategory('furniture')"> Furniture</li>
+                <li onclick="getByCategory('home-decoration')"> Home Decoration</li>
+                <li onclick="getByCategory('groceries')"> Groceries</li>
+                <li onclick="getByCategory('kitchen-accessories')"> Kitchen Accessoriess</li>
+                <li onclick="getByCategory('laptops')"> Laptops</li>
+                <li onclick="getByCategory('womens-bags')">Women's bags</li>
+                <li onclick="getByCategory('womens-dresses')">Women's dresses</li>
+                <li onclick="getByCategory('womens-jewellery')">Women's jewellery</li>
+                <li onclick="getByCategory('womens-shoes')">Women's shoes</li>
+                <li onclick="getByCategory('womens-watches')">Women's watches</li>
+                <li onclick="getByCategory('mens-shirts')">Men's shirts</li>
+                <li onclick="getByCategory('mens-shoes')"> Men's shoes</li>
+                <li onclick="getByCategory('mens-watches')"> Men's Watches</li>
+                <li onclick="getByCategory('mobile-accessorie')"> Mobile Accessorie</li>
+                <li onclick="getByCategory('motorcycle')"> Motorcycle</li>
+                <li onclick="getByCategory('skin-care')">Skin care</li>
+                <li onclick="getByCategory('sports-accessories')"> sports accessories</li>
+                <li onclick="getByCategory('sunglasses')">Sunglasses</li>
+                <li onclick="getByCategory('tablets')">tablets</li>
+                <li onclick="getByCategory('tops')">tops</li>
+                <li onclick="getByCategory('vehicle')">vehicle</li>
+            </ul>
+        </aside>
+        <div class="product">
+            <div class="card">
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
